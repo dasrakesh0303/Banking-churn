@@ -1,0 +1,12 @@
+import numpy as np
+import pip
+
+import pandas as pd
+
+churn_modeling_df = pd.read_csv('Churn_Modelling.csv')
+
+churn_modeling_df.head()
+churn_modeling_df.info()
+
+churn_modeling_df.isnull().sum()
+churn_modeling_df.describe()
